@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drop and Target</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #main {
+            height: 100vh;
+            width: 100 wh;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        
+        #line {
+            position: fixed;
+            top: 100px;
+            width: 100%;
+            border-bottom: solid 1px red;
+        }
+        
+        #target {
+            width: 20px;
+            height: 20px;
+            background: red;
+            position: absolute;
+            top: 400px;
+            right: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="drop"></div>
+        <div id="line"></div>
+        <div id="target"></div>
+    </div>
+    <script src="custom.js"></script>
+</body>
+
+</html>
